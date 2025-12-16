@@ -189,8 +189,8 @@ GLOBAL_LIST_EMPTY(lord_titles)
 
 /**
 	Mage Lord subclass. Prince mage is a thing.
-	Light on skills, has some combat skills mage normally doesn't have. 18 pts so people don't complain they are better.
-	Stats is better than mage associate and magic heir. +12 total.
+	Light on skills, has some combat skills mage normally doesn't have.
+	Stats are better than mage associate and magic heir. +12 total.
 	Mage armor and no armor training.
 
 
@@ -208,7 +208,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 		STATKEY_PER = 2,
 		STATKEY_WIL = 1,
 	)
-	subclass_spellpoints = 18
+	subclass_spellpoints = 24
 	subclass_skills = list(
 		/datum/skill/combat/staves = SKILL_LEVEL_APPRENTICE,
 		/datum/skill/combat/polearms = SKILL_LEVEL_APPRENTICE,
